@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Clicker Game</title>
+		<link rel="stylesheet" href="style.css" />
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main class="game-layout">
+			<aside class="stats-panel">
+        <h2>Stats</h2>
+        <p>Lifetime manufactured: <span id="lifetime">0</span>MB</p>
+        <p>Highest RAM: <span id="highest">0</span>MB</p>
+        <div id="items">
+          <h2>Items:</h2>
+          <ul id="item-list"></ul>
+        </div>
+      </aside>
+			<section class="game-area">
+				<h2>RAM: <span id="click-count">0</span>MB</h2>
+        <div class="buttons">
+				  <button id="click-button">
+           <p>Clicky!</p>
+				  </button>
+          <button id="reset">Reset</button>
+        </div>
+			</section>
+			<aside class="shop-panel" id="shop-items"></aside>
+		</main>
+	</body>
+</html>
